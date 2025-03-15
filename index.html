@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-lang="title">Fibonacci - Servicios de Datos: Data Analytics, Data Science e IA</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <!-- Carga de D3.js para el preloader (opcional) -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <svg id="logo-animation" width="500" height="500"></svg>
+  </div>
+
+  <!-- Contenido Principal -->
+  <div id="main-content" style="display: none;">
+    <header>
+      <nav>
+        <a href="#" id="home-link"><h1>Fibonacci</h1></a>
+        <button class="hamburger" id="hamburger-btn">&#9776;</button>
+        <ul id="nav-menu">
+          <li><a href="#hero" data-lang="inicio">Inicio</a></li>
+          <li><a href="#services" data-lang="servicios">Servicios</a></li>
+          <li><a href="#about" data-lang="sobre">Sobre Nosotros</a></li>
+          <li><a href="#contact" data-lang="contacto">Contacto</a></li>
+          <li><button id="lang-toggle">EN</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- INICIO -->
+    <section id="hero">
+      <video autoplay muted loop id="background-video">
+        <source src="video_background.mp4" type="video/mp4">
+      </video>
+      <h2 data-lang="hero">Impulsa la Revolución de tus Datos</h2>
+      <p data-lang="inspiracion">
+        Transforma tu negocio con servicios integrales de análisis de datos, ciencia de datos e inteligencia artificial.
+      </p>
+      <a href="https://calendly.com/chepeadan" target="_blank" class="btn" data-lang="cta">Agenda una consulta gratuita</a>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="services">
+      <h2 data-lang="nuestros_servicios">Nuestros Servicios</h2>
+      
+      <!-- Servicio de datos -->
+      <div class="service">
+        <h3 data-lang="datos_servicio">Servicios de Datos Integrales</h3>
+        <p data-lang="datos_servicio_desc">
+          Ofrecemos análisis de datos avanzado, ciencia de datos e inteligencia artificial para transformar grandes volúmenes de información en decisiones estratégicas.
+        </p>
+        <ul>
+          <li data-lang="datos_punto1">Análisis avanzado para detectar oportunidades de negocio.</li>
+          <li data-lang="datos_punto2">Modelos predictivos y soluciones de IA personalizadas.</li>
+          <li data-lang="datos_punto3">Optimización de procesos mediante automatización y Data Science.</li>
+        </ul>
+      </div>
+      
+      <!-- Ventajas de externalizar el análisis de datos -->
+      <div class="service">
+        <h3 data-lang="ventajas_titulo">¿Por qué externalizar el análisis de datos?</h3>
+        <ul>
+          <li data-lang="ventaja1"><strong>Eficiencia de costos:</strong> Las empresas pueden utilizar herramientas avanzadas de IA sin una gran inversión.</li>
+          <li data-lang="ventaja2"><strong>Acceso a expertos:</strong> Obtén ayuda de especialistas externos a tu equipo.</li>
+          <li data-lang="ventaja3"><strong>Enfoque en el negocio:</strong> Permite que te concentres en tus actividades principales mientras nosotros optimizamos tus datos.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="about">
+      <h2 data-lang="sobre_nosotros">Sobre Nosotros</h2>
+      <p data-lang="about_desc">
+        En Fibonacci, contamos con más de 20 años de experiencia y un equipo especializado en datos. Nuestra misión es transformar grandes volúmenes de información en ventajas competitivas para tu empresa.
+      </p>
+      <h3 data-lang="por_que_elegir">¿Por qué elegirnos?</h3>
+      <p data-lang="elegir_desc">
+        Potenciamos tu negocio con análisis avanzado, inteligencia artificial y soluciones integrales de datos, reduciendo costos operativos y acelerando el crecimiento.
+      </p>
+      <p data-lang="filosofia">
+        Nuestra filosofía: <br>
+        <strong>Enfoque en datos.</strong> Transformamos información en estrategias ganadoras. <br>
+        <strong>Innovación continua.</strong> Soluciones inteligentes para impulsar tu negocio. <br>
+        <strong>Excelencia operativa.</strong> Servicios integrales que maximizan tus recursos.
+      </p>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contact">
+      <h2 data-lang="contacto">Contacto</h2>
+      <p data-lang="contacto_desc">
+        Contáctanos para descubrir cómo nuestros servicios de datos pueden transformar tu empresa y potenciar la innovación.
+      </p>
+      <a href="https://calendly.com/chepeadan" target="_blank" class="btn" data-lang="cta_contacto">Reserva una consulta</a>
+    </section>
+
+    <footer>
+      <p data-lang="copyright">Copyright © 2025 Fibonacci. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+</body>
+</html>
+
